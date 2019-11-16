@@ -5,6 +5,9 @@
 def solution(A, K):
     return A[-K:] + A[:-K]
 
+def solution2(A, K):
+    return A[-K % len(A):] + A[:-K % len(A)]
+
 A = [3, 8, 9, 7, 6]
 K = 3
-print(solution(A,K))
+print(solution2(A,K))
