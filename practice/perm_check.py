@@ -1,6 +1,5 @@
 # coding: utf-8
 
-# PermCheck in Codility (Score: 66)
 # 順列なら1を返し、そうでなければ0を返す
 
 def solution(A):
